@@ -1,12 +1,12 @@
-# Android workshop music player
+# 🎵 Android Workshop Music Player 🎵
 
 This is a basic music player application created for learning purposes. It is designed to provide a simple interface for playing music files on your device.
 
 ## Features
 
-- Play, pause, and stop music playback.
-- Load and play local audio files.
-- Basic user interface with play controls.
+- ▶️ Play, pause, and stop music playback.
+- 📁 Load and play local audio files.
+- 🖥️ Basic user interface with play controls.
 
 ## Installation
 
@@ -18,7 +18,7 @@ This is a basic music player application created for learning purposes. It is de
 
 1. Open the application.
 2. Use the play, pause, and stop buttons to control music playback.
-3. Enjoy listening to your favorite music!
+3. Enjoy listening to your favorite music! 🎶
 
 ## Feedback
 
