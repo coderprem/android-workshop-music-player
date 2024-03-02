@@ -73,6 +73,13 @@ class MainActivity : AppCompatActivity() {
                 if (fromUser) {
                     mediaPlayer.seekTo(progress)
                 }
+                if(binding.songSeekBar.progress == totalTime) {
+                    currentSong++
+                    if(currentSong>4) currentSong = 0
+                    binding.songImage.setImageResource(songs[currentSong].songImage)
+                    binding.songName.text = songs[currentSong].songName
+                    startSong(songs[currentSong].songId)
+                }
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {
